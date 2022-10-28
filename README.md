@@ -33,3 +33,10 @@ To avoid accidental erasure or bad image loading:
 
 - The bootloader needs to receive `PROTO_GET_SYNC` and `PROTO_GET_DEVICE` prior to receiving `PROTO_CHIP_ERASE`.
 - The bootloader needs to receive `PROTO_GET_SYNC` and `PROTO_GET_DEVICE` and `PROTO_PROG_MULTI` and `PROTO_GET_CRC` prior to receiving `PROTO_BOOT`.
+
+
+## HKUST-PX4-Bootloader
+This repo is based on newly released px4/px4-bootloader repo. Please follow the branch management rule.
+1. New board should be developed on new branch, the name rule as follow: board-name_mcu-type: [jhemcuf405aio-f405]
+2. New public feature should be test on a new branch, and then merged in to [main] branch
+
