@@ -39,4 +39,6 @@ To avoid accidental erasure or bad image loading:
 This repo is based on newly released px4/px4-bootloader repo. Please follow the branch management rule.
 1. New board should be developed on new branch, the name rule as follow: board-name_mcu-type: [jhemcuf405aio-f405]
 2. New public feature should be test on a new branch, and then merged in to [main] branch
-
+ 
+## jhemcuf405aio-f405branch
+This branch used for jhemcuf405aio bootloader
